@@ -1,0 +1,29 @@
+1. Jelaskan apa yang dimaksud dengan dokumen root ?
+   = Dokumen root adalah dokumen utama atau dokumen induk yang menjadi dasar atau titik awal dari suatu struktur dokumen, file, atau sistem.
+
+2. Pada apache web server, apakah dokumen root harus terletak dalam direktori C:\xampp\htdocs ? Jelaskan jawaban anda
+   = Dokumen root tidak harus berada di C:\xampp\htdocs. kita bisa mengubah ke direktori lain dengan mengedit konfigurasi 
+     Apache itu (httpd.conf).
+
+3. Jelaskan apa yang dimaksud dengan perintah git : init, clone, remote, add, commit, push dan checkout
+   = git init 	: menginisialisasi repository git baru ke dalam direktori 
+     git clone 	: mengcopy repository server ke komputer lokal 
+     git remote : mengelola koneksi ke repository seperti GitHub/GitLab 
+     git add 	: untuk menambahkan atau mengupdate perubahan file ke staging sebelum commit 
+     git push 	: mengirim perubahan commit dari repository lokal ke remote 
+     git checkout : untuk berpindah ke branch lain atau mengembalikan file ke versi tertentu dalam repository
+
+4. Jelaskan perbedaan antara GitHub dan GitLab
+   = Github berbasis cloud atau enterprise , gitlab bisa di host sendiri atau di cloud juga bisa. Github lebih populer 
+     dan lebih digunakan untuk open source atau komunitas, sedangkan gitlab lebih berfokus pada DevOps dan Cl/CD
+ 
+     dalam segi keamanan dan kontrol akses, github berbasis tim, beberapa fiture keamanannya juga memerlukan github 
+     enterprise, untuk gitlab dia menawarkan kontrol akses yang lebih granular, dalam versi gratisnya juga
+
+5. Jelaskan perbedaan antara GitHub dan GitLab
+   = Variable user untuk akun pengguna tertentu di komputer. Setiap pengguna yang login ke sistem bisa memiliki 
+     variabel pengguna yang berbeda. Sedangkan variable system untuk seluruh sistem dan semua pengguna di komputer 
+     tersebut. variabel ini dapat diakses oleh semua akun pengguna yang login ke sistem.
+
+6. Apa persamaan variable system dengan variable constant ? 
+   = Persamaannya yaitu dapat menyimpan nilai, dapat diakses oleh semua pengguna dan digunakan dalam perhitungan atau proses sistem
