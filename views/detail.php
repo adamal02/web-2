@@ -21,7 +21,7 @@ if (isset($_GET['id'])) {
         <p>Kode: <?= $data['kode'] ?></p>
         <p>Nama: <?= $data['nama'] ?></p>
         <p>Kaprodi: <?= $data['kaprodi'] ?></p>
-    <?php else: ?>
+    <?php else ?>
         <p>Data tidak ditemukan</p>
     <?php endif ?>
     <a href="?url=prodi">Kembali</a>
